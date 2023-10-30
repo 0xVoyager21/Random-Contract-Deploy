@@ -1,0 +1,14 @@
+{
+  "name": "deploy_scroll",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js"
+  },
+
+  "dependencies": {
+    "@types/node": "^20.8.9",
+    "ethers": "^5.7.2",
+    "solc": "^0.8.22",
+    "winston": "^3.10.0"
+  }
+}
